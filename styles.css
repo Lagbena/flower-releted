@@ -1,16 +1,32 @@
 *{  margin: 0px;
     padding: 0px;}
+body{font-family: 'Lato', sans-serif;}
+.main-header{background-color:rgba(229, 84, 115, 0.10);}
 .banner{
-    height: 100vh;
-    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0px 240px ;
     display: flex;
-   
-}
-.bannerimage{
-    width:280px;
-    height: 450px;
-}
-
-
-
+    align-items: center;
+    justify-content: space-around;}
+.bannertitle{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    width: 700px;}
+.bannerPragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 30px;
+    width: 600px;
+    padding: 30px 0px 30px 0px;}
+.btn{
+    display:flex;
+    padding: 20px 40px;
+    border: none;
+    font-size:22px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;}
 
