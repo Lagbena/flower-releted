@@ -151,31 +151,78 @@ body {
     color: white;
     margin: 30px 250px 0px;
 }
+
 .social {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 150px;}
+    padding-top: 150px;
+}
+
 .socialinformation {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400px;
-    padding-top: 30px;}
-.pictures{
+    padding-top: 30px;
+}
+
+.pictures {
     display: flex;
-    padding-top:35px;
+    padding-top: 35px;
     justify-content: space-around;
     width: 1500px;
     height: 400px;
-    margin: auto;}
-.suscribtion{
-    width: 1440px;
-height: 449px;
-flex-shrink: 0;
-border-radius: 8px;
-background-image: url();
+    margin: auto;
+}
 
-background-repeat: no-repeat;
+.suscribtion {
+    background-image: url(/flower/Rectangle\ 9.png);
+    width: 1450px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: 150px;
+    padding: 0px 10px 0px 10px;
+
+
+}
+
+.suscribtiont {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+}
+
+.suscribtionp {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.input{
+    display: flex;
+    padding: 17px 120px;
+    border: none;
+    font-size: 22px;
+    border-radius: 8px;
+    background: white;
+    color: grey;
+    margin: 40px 300px 0px;
+}
+.emailbtn{
+    display: flex;
+    padding: 20px 40px;
+    border: none;
+    font-size: 22px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    margin: -60px 0px 500px 850px;
 }
