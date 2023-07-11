@@ -176,7 +176,6 @@ body {
     height: 400px;
     margin: auto;
 }
-
 .suscribtion {
     background-image: url(/flower/Rectangle\ 9.png);
     width: 1450px;
@@ -186,11 +185,7 @@ body {
     align-items: center;
     margin-left: 280px;
     margin-top: 150px;
-    padding: 0px 10px 0px 10px;
-
-
-}
-
+    padding: 0px 10px 0px 10px;}
 .suscribtiont {
     color: #272727;
     text-align: center;
@@ -198,7 +193,6 @@ body {
     font-weight: 800;
     padding-top: 120px;
 }
-
 .suscribtionp {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -206,7 +200,7 @@ body {
     font-weight: 400;
     padding-top: 20px;
 }
-.input{
+.input {
     display: flex;
     padding: 17px 120px;
     border: none;
@@ -214,9 +208,10 @@ body {
     border-radius: 8px;
     background: white;
     color: grey;
-    margin: 40px 300px 0px;
+    margin: 40px 400px 0px;
+
 }
-.emailbtn{
+.emailbtn {
     display: flex;
     padding: 20px 40px;
     border: none;
@@ -224,5 +219,25 @@ body {
     border-radius: 8px;
     background: #E55473;
     color: white;
-    margin: -60px 0px 500px 850px;
+    margin: -60px 0px 500px 950px;
+}
+.footersection {
+    width: 2013px;
+    height: 450px;
+    background-color: black;
+    margin-top: 120px;}
+.footerti {
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 130px;
+    font-weight: 800;}
+.primary{color: white;}
+.footerpra {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+
 }
