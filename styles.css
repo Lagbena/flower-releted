@@ -1,32 +1,43 @@
-*{  margin: 0px;
+* {
+    margin: 0px;
     padding: 0px;}
-body{font-family: 'Lato', sans-serif;}
-.main-header{background-color:rgba(229, 84, 115, 0.10);}
-.banner{
-    padding: 50px 240px 0px 240px ;
+body {font-family: 'Lato', sans-serif;}
+.main-header {background-color: rgba(229, 84, 115, 0.10);}
+.banner {
+    padding: 50px 240px 0px 240px;
     display: flex;
     align-items: center;
     justify-content: space-around;}
-.bannertitle{
+.bannertitle {
     color: #272727;
     font-size: 80px;
-    font-style: normal;
     font-weight: 800;
     width: 700px;}
-.bannerPragraph{
+.bannerPragraph {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400px;
     line-height: 30px;
     width: 600px;
     padding: 30px 0px 30px 0px;}
-.btn{
-    display:flex;
+.btn {
+    display: flex;
     padding: 20px 40px;
     border: none;
-    font-size:22px;
+    font-size: 22px;
     border-radius: 8px;
     background: #E55473;
     color: white;}
-
+.about-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top:200px ;
+    padding-bottom: 25px;}
+.about-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;}
